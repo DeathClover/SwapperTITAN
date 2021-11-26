@@ -74,7 +74,7 @@ class App extends Component {
 
   //Load Swap instance via infura webSocket API
   async loadEthSwapWebSocket(){
-    const URL = `wss://ropsten.infura.io/ws/v3/70aea16e9abe4d19a5726cb041c174b4`
+    const URL = `wss://ropsten.infura.io/ws/v3/38cb7abff6e14d6cbaea96888a7a3477`
     let web3Socket = new Web3(new Web3.providers.WebsocketProvider(URL));
     
     if (web3Socket){      
