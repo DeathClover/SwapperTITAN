@@ -1,0 +1,122 @@
+/* Styles go here */
+.web3-address {
+  /*
+  background: rgb(196, 209, 10);
+  */
+  border: 0px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
+  height: 22px;
+  margin-right: 20px;
+  margin-top: -1px;
+  padding: 1;
+  text-align: center;
+  color: rgb(196, 209, 10);
+  
+}
+
+.primary-text {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
+  color: rgb(255, 255, 255);
+  height: 22px;
+  margin-right: 5px;
+  margin-top: -1px;
+  padding: 1;
+  text-align: center;
+  
+}
+
+.buttonTrue {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: rgb(107, 112, 109);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonFalse {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(54, 44, 44);
+  opacity: 0.2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.walletButton {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none ;
+  outline: none;
+  color: rgb(196, 209, 10);
+  background-color: rgb(114, 113, 114);
+  border: none;
+  border-radius: 15px;    
+
+}
+
+.swapButton {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none ;
+  outline: none;
+  color: rgb(196, 209, 10);
+  background-color: rgb(114, 113, 114);
+  border: none;
+  border-radius: 15px;    
+
+}
+
+.resetButton {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-left: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none ;
+  outline: none;
+  color: rgb(196, 209, 10);
+  background-color: rgb(114, 113, 114);
+  border: none;
+  border-radius: 15px;    
+
+}
+
+.tx {        
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);  
+  border: none;
+  border-radius: 0px;    
+}
+
+
