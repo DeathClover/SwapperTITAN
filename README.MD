@@ -1,5 +1,3 @@
-# SwapperTITAN
- Swap App
 
 !!!!!!!!!!Swapp dapp only for testing purposes!!!!!!!!!!
 !!!!!!!!!!I didn't provide full security in the smart contracts .They are NOT for production as they are!!!!!!!
@@ -11,10 +9,19 @@ Instructions:
 
     A) The smart contracts are already deployed in Ropsten network .
         Open the Swap Project:  
-            1) open command line press 'cd .\client\ ' 
-            2) 'npm run start'
-            3) press connect wallet 
-            4) you can start swapping with the FUN token !
+
+            Setup
+            Clone Repository
+
+            $ git clone https://github.com/DeathClover/SwapperTITAN.git
+    
+            1) open command line press:'$ cd .\client\ ' 
+            2) Install Dependencies:
+                $ npm install
+            3) $ npm run start
+            4) press connect wallet 
+            5) you can start swapping with the FUN token !
+            Browser will launch on http://localhost:3000/.
     
     B) If You want to deploy from the start the project .
         *Be aware of the packages that i use like truffle,dotenv,hdwalletprovider,node.js,bootstrap,
