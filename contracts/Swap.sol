@@ -22,14 +22,15 @@ contract Swap {
     mapping(uint => address) public stored;
     uint store;
     uint256 private constant _TIMELOCK = 10 seconds;
+    
+    event TokensPurchased (address indexed _from, address indexed _token, uint256 _value, uint _rate);
+    event TokensSold (address indexed _from, address indexed _token, uint256 _value, uint _rate);
+    event buyFailure(address indexed _from, uint256 _value);
+
 
     constructor (TokenX _token)  {
         token = _token;
     }
-
-    event TokensPurchased (address indexed _from, address indexed _token, uint256 _value, uint _rate);
-    event TokensSold (address indexed _from, address indexed _token, uint256 _value, uint _rate);
-    event buyFailure(address indexed _from, uint256 _value);
 
     function buyTokens () public payable {
         tokenAmount = rate.mul(msg.value) ; 
