@@ -8,6 +8,7 @@ Instructions:
     You have two choices A and B !
 
     A) The smart contracts are already deployed in Ropsten network .
+        So be conected to Ropsten Network!
         Open the Swap Project:  
 
             Setup
