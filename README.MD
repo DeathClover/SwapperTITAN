@@ -2,7 +2,7 @@
 !!!!!!!!!!Swapp dapp only for testing purposes!!!!!!!!!!
 !!!!!!!!!!I didn't provide full security in the smart contracts .They are NOT for production as they are!!!!!!!
 
-Created By Christos Lytrokapis for the Titan job interview . 
+Created By Christos Lytrokapis . 
 
 Instructions:
     You have two choices A and B !
